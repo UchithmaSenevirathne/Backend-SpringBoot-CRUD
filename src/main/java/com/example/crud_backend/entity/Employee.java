@@ -9,4 +9,7 @@ public class Employee {
     private String employeeGender;
     private String employeeDepartment;
     private String employeeSkills;
+
+    public Employee() {
+    }
 }
