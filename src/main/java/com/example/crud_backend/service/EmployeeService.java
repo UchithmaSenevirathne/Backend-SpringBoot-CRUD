@@ -5,6 +5,7 @@ import com.example.crud_backend.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -16,6 +17,6 @@ public class EmployeeService {
     }
 
     public List<Employee> getEmployees(){
-
+        List<Employee> employees = new ArrayList<>();
     }
 }
