@@ -18,5 +18,6 @@ public class EmployeeService {
 
     public List<Employee> getEmployees(){
         List<Employee> employees = new ArrayList<>();
+        employeeDao.findAll().forEach(employees::add);
     }
 }
