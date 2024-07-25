@@ -29,7 +29,7 @@ public class EmployeeController {
     public void deleteEmployee(@PathVariable Integer employeeId){
         employeeService.deleteEmployee(employeeId);
     }
-
+    @PutMapping("/update/employee")
     public Employee updateEmployee(Employee employee){
 
     }
