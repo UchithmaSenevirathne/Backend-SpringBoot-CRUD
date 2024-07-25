@@ -31,6 +31,6 @@ public class EmployeeService {
     }
 
     public Employee updateEmployee(Employee employee){
-
+        employeeDao.findById(employee.getEmployeeId());
     }
 }
