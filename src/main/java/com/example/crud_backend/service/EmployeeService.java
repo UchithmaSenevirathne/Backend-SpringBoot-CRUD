@@ -32,5 +32,6 @@ public class EmployeeService {
 
     public Employee updateEmployee(Employee employee){
         employeeDao.findById(employee.getEmployeeId()).orElseThrow();
+        return employeeDao.save(employee);
     }
 }
