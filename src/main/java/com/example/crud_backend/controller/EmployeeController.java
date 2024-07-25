@@ -24,4 +24,6 @@ public class EmployeeController {
     public List<Employee> getEmployees(){
         return employeeService.getEmployees();
     }
+
+    public void getEmployeeById(Integer employeeId){}
 }
