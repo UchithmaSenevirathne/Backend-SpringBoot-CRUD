@@ -29,4 +29,8 @@ public class EmployeeService {
     public void deleteEmployee(Integer employeeId){
         employeeDao.deleteById(employeeId);
     }
+
+    public Employee updateEmployee(Employee employee){
+
+    }
 }
