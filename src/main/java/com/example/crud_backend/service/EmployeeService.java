@@ -23,6 +23,6 @@ public class EmployeeService {
     }
 
     public Employee getEmployeeById(Integer employeeId){
-
+        return employeeDao.findById(employeeId);
     }
 }
