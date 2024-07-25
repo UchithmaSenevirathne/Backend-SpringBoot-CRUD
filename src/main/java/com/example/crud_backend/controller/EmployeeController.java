@@ -16,4 +16,8 @@ public class EmployeeController {
     public Employee saveEmployee(@RequestBody Employee employee){
         return employeeService.saveEmployee(employee);
     }
+
+    public void getEmployee(){
+
+    }
 }
