@@ -25,4 +25,8 @@ public class EmployeeController {
     public Employee getEmployeeById(@PathVariable Integer employeeId){
         return employeeService.getEmployeeById(employeeId);
     }
+
+    public void deleteEmployee(Integer employeeId){
+
+    }
 }
