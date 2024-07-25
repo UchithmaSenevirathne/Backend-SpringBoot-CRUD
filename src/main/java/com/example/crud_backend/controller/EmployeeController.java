@@ -30,7 +30,7 @@ public class EmployeeController {
         employeeService.deleteEmployee(employeeId);
     }
     @PutMapping("/update/employee")
-    public Employee updateEmployee(Employee employee){
+    public Employee updateEmployee(@RequestBody Employee employee){
 
     }
 }
