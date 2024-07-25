@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class EmployeeService {
     @Autowired
     private EmployeeDao employeeDao;
-    public void saveEmployee(Employee employee){
-        employeeDao.save(employee);
+    public Employee saveEmployee(Employee employee){
+        return employeeDao.save(employee);
     }
 }
