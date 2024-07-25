@@ -1,5 +1,8 @@
 package com.example.crud_backend.entity;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Employee {
 
     private Integer employeeId;
