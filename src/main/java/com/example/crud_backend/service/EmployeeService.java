@@ -21,4 +21,8 @@ public class EmployeeService {
         employeeDao.findAll().forEach(employees::add);
         return employees;
     }
+
+    public Employee getEmployeeById(Integer employeeId){
+
+    }
 }
