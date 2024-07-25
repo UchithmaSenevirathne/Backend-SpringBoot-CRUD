@@ -8,4 +8,5 @@ public class Employee {
     private String employeeAddress;
     private String employeeGender;
     private String employeeDepartment;
+    private String employeeSkills;
 }
