@@ -29,4 +29,8 @@ public class EmployeeController {
     public void deleteEmployee(@PathVariable Integer employeeId){
         employeeService.deleteEmployee(employeeId);
     }
+
+    public Employee updateEmployee(Employee employee){
+
+    }
 }
